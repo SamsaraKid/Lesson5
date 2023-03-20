@@ -1,0 +1,42 @@
+.cat{
+    height: 200px;
+    width: 200px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px black solid;
+    display: inline-block;
+}
+
+#n1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#n2{
+    position: relative;
+    left: 0px;
+    top: 200px;
+}
+
+#n3{
+    position: relative;
+    left: 0px;
+    top: 400px;
+}
+
+#n4{
+    position: relative;
+    left: 0px;
+    top: 200px;
+}
+
+#n5{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+

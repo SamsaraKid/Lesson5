@@ -1,0 +1,21 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#title1{
+    background-color: #6c6cff;
+    font-weight: 600;
+}
+
+#title1 td{
+    vertical-align: middle;
+}

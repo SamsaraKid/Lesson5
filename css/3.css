@@ -1,0 +1,49 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.poke{
+    width: 100px;
+}
+
+p{
+    font-size: 24px;
+}
+
+p::before{content: "\2666";color: crimson}
+p::after{content: "$$"}
+
+p:hover{color: darkcyan}
+p::selection{color: lawngreen}
+
+div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    display: inline-block;
+}
+
+div:first-child{
+    background-color: crimson;
+}
+
+div:nth-child(even){
+    background-color: lawngreen;
+}
+
+td:nth-child(even){
+    background-color: lawngreen;
+}
+
+td:nth-child(odd){
+    background-color: #ffb100;
+}
